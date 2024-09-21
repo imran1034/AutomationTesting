@@ -12,13 +12,13 @@ public class LoginPage {
 	WebDriver driver;
     WaitHelper waitHelper;
 
-    @FindBy(id = "username")
+    @FindBy(id = "email")
     WebElement usernameField;
 
-    @FindBy(id = "password")
+    @FindBy(id = "pass")
     WebElement passwordField;
 
-    @FindBy(id = "loginButton")
+    @FindBy(id = "u_0_5_SS")
     WebElement loginButton;
 
     public LoginPage(WebDriver driver) {
